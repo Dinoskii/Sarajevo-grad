@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+html {
+	margin: 0;
+	padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background: url(../slike/bjelasnica.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+/*NAVIGACIJA*/
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1% 2% 1% 2%;
+	  list-style: none;
+    text-decoration:none; 
+	  background: rgba(0,0,0,0.1);
+    border-radius: 25px;
+}
+
+li {
+  padding: 1px;
+}
+
+li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: "Quicksand";
+	font-weight: lighter;
+	font-size: 24px;
+  padding: 10px 15px;
+}
+
+li a:hover {
+	transition: 1s;
+	background: rgba(255,255,255,0.7);
+	color: #000;
+  border-radius: 25px;
+}
+
+/*SLIKA POZADINA I ANIMACIJA*/
+
+.slika {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 2%;
+    -webkit-animation: scale 3s ease-in-out infinite alternate; 
+}
+
+@-webkit-keyframes scale {
+    0% {
+        
+    }
+    
+    100% {
+        -webkit-transform: scale(1.2);
+    }
+  }
+
+/*NASLOV*/
+
+h1 {
+    font-family: "Quicksand";
+    font-size: 60px;
+    text-align: center;
+}
+
+/*VIDEO TEXT SLIKE*/
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+  }
+  
+  .flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding-left: 15%;
+    text-align: justify;
+    font-family: "Quicksand";
+    width: 55in;
+  }
+  
+  .flex-items:nth-child(2){
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding-right: 15%;
+    padding-left: 2%;
+    text-align: justify;
+    font-family: "Quicksand";
+  }
+
+  /**/
+
+  .flex-container-dva {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding-bottom: 1%;
+  }
+  
+  .flex-items-dva:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding-left: 15%;
+    padding-right: 2%;
+    text-align: justify;
+    font-family: "Quicksand";
+  }
+  
+  .flex-items-dva:nth-child(2){
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding-right: 15%;
+    text-align: justify;
+    font-family: "Quicksand";
+    width: 22in;
+  }
+
+  /**/
+
+  .flex-container-tri {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+  }
+  
+  .flex-items-tri:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding-left: 15%;
+    text-align: justify;
+    font-family: "Quicksand";
+    width: 50in;
+  }
+  
+  .flex-items-tri:nth-child(2){
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding-right: 15%;
+    padding-left: 2%;
+    text-align: justify;
+    font-family: "Quicksand";
+  }
+
+  /**/
+
+  .flex-container-cet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+  }
+  
+  .flex-items-cet:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding-left: 15%;
+    text-align: justify;
+    font-family: "Quicksand";
+    width: 100%;
+  }
+  
+  .flex-items-cet:nth-child(2){
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding-right: 15%;
+    padding-left: 2%;
+    text-align: justify;
+    font-family: "Quicksand";
+  }
+
+  /*LOKACIJE*/
+
+  h2 {
+    font-family: "Quicksand";
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .flex-lokacije {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin: 0% 20% 0% 20%;
+  }
+
+  .flex-container-lokacije {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+  }
+
+  .flex-items-lokacije:nth-child(1){
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    text-align: justify;
+    font-family: "Quicksand";
+    padding: 1%;
+  }
+
+  .flex-items-lokacije:nth-child(2){
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    text-align: justify;
+    font-family: "Quicksand";
+    padding: 1%;
+  }
+
+  .flex-items-lokacije:nth-child(3){
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    text-align: justify;
+    font-family: "Quicksand";
+    padding: 1%;
+  }
+
+  .flex-items-lokacije:nth-child(4){
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    text-align: justify;
+    font-family: "Quicksand";
+    padding: 1%;
+  }
+
+  /**/
+
+  .flex-lokacije-dva {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin: 0% 20% 0% 20%;
+  }
+
+  .flex-container-lokacije-dva {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+  }
+
+  .flex-items-lokacije-dva:nth-child(1){
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    text-align: justify;
+    font-family: "Quicksand";
+    padding: 1%;
+  }
+
+  .flex-items-lokacije-dva:nth-child(2){
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    text-align: justify;
+    font-family: "Quicksand";
+    padding: 1%;
+  }
+
+  .flex-items-lokacije-dva:nth-child(3){
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    text-align: justify;
+    font-family: "Quicksand";
+    padding: 1%;
+  }
+
+  .flex-items-lokacije-dva:nth-child(4){
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    text-align: justify;
+    font-family: "Quicksand";
+    padding: 1%;
+  }
+
+/*DUGME*/
+
+.wrapper-dugme {
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-dugme {
+	display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0% 0% 0% 0%;
+	list-style: none;
+	background: rgba(0,0,0,0.4);
+  border-radius: 25px;
+  margin-left: 60%;
+}
+
+.dugm {
+  padding: 0px;
+}
+
+.dugm .adugm {
+	text-decoration: none;
+	color: #fff;
+	font-family: "Quicksand";
+	font-weight: lighter;
+	font-size: 24px;
+  padding: 17px 40px;
+}
+
+.dugm .adugm:hover {
+	transition: 1s;
+	background: rgba(255,255,255,0.7);
+	color: #000;
+  border-radius: 25px;
+}
+
+ h3 {
+    font-family: "Quicksand";
+    font-size: 60px;
+    text-align: center;
+}
+
+/*5 RAZLOGA*/
+
+.razbg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  
+}
+
+.flex-container-raz {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  padding: 0% 10%;
+  margin: 0.5%;
+}
+
+.flex-items-raz:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  padding-left: 15%;
+  text-align: justify;
+  font-family: "Quicksand";
+}
+
+.flex-items-raz:nth-child(2){
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  padding-right: 15%;
+  padding-left: 2%;
+  text-align: justify;
+  font-family: "Quicksand";
+}
+
+/*Footer*/
+
+.futer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 25vh;
+  background-color: #263238;
+  
+}
+
+.futer-text{
+  font-family: "Quicksand";
+  font-size: 60px;
+  text-align: center;
+  color: whitesmoke;
+  
+}
+
+.credit {
+  font-family: "Quicksand";
+  font-size: 20px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: #263238;
+}
+
