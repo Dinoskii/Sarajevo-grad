@@ -542,8 +542,9 @@ h3 {
   align-items: center;
   font-family: "Quicksand";
   font-size: 60px;
-  /* text-align: center; */
+  text-align: center;
   color: whitesmoke;
+  width: 100%;
   
 }
 
