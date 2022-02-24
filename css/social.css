@@ -1,12 +1,17 @@
 .center {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
+    margin-top: 2%;
   }
   #social-test {
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* vertical-align: middle; */
     text-align: center;
-    font-size: 30px;
+    /* font-size: 30px; */
   }
   #social-test .social {
     padding-left: 0px;
@@ -17,7 +22,7 @@
   #social-test li a {
     color: rgba(255, 255, 255, 1);
     border-radius: 60px;
-    list-style-type: none;
+    /* list-style-type: none; */
     display: inline-block;
     width: 80px;
     height: 80px;
@@ -25,7 +30,7 @@
     padding: 1%;
     border: 1px solid rgba(255, 255, 255, 1);
     cursor: pointer;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     transition: ease 1s;
   }
   #social-test li a:hover {
